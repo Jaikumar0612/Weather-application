@@ -1,0 +1,101 @@
+*{
+    margin :0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background : black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/tree-desert-white-clouds-daytime.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 90%;
+    max-width: 470px;
+    margin: 100px;
+    border-radius: 30px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+#cityName {
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 100px;
+    height: 35px;
+    width: 75%;
+    background: #ebfffc;
+    margin-top: 20px;
+    padding-left: 10px;   
+    transition: all 0.3s ease;
+}
+#cityName:focus {
+    height: 45px;
+    border: 1px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding-left: 10px;
+}
+
+.button {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 50%;
+}
+
+.button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#weather-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+#date{
+    color: red;
+}
+
+.footer{
+    background: black;
+    columns: white;
+}
+
